@@ -1,4 +1,3 @@
-// screens/cards_tab.dart (Tab 2: Cards & Transactions)
 import 'package:flutter/material.dart';
 
 class CardsTab extends StatelessWidget {
