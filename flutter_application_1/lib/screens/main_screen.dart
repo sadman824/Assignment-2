@@ -1,4 +1,4 @@
-// screens/main_screen.dart
+
 import 'package:flutter/material.dart';
 import '../screens/home_tab.dart';
 import '../screens/spending_tab.dart';
