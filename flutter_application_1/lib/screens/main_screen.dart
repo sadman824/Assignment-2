@@ -27,12 +27,12 @@ class _MainScreenState extends State<MainScreen> {
     return Scaffold(
       body: PageView(
         controller: _pageController,
-        physics: const NeverScrollableScrollPhysics(), // Disable swipe
+        physics: const NeverScrollableScrollPhysics(), 
         children: const [
-          HomeTab(), // Tab 0: Overview + Balance + Quick Actions
-          SpendingTab(), // Tab 1: Spending Report + Breakdown
-          CardsTab(), // Tab 2: My Cards + Recent Transactions
-          ProfileTab(), // Tab 3: User Profile + Linked Accounts + Bio
+          HomeTab(), 
+          SpendingTab(), 
+          CardsTab(), 
+          ProfileTab(), 
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
